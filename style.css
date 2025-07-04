@@ -1,0 +1,119 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+}
+header{
+    background-color: aquamarine;
+}
+h1{
+    color: black;
+    font-family: sans-serif;
+}
+nav{
+    margin: 20px 0;
+}
+.botao{
+    display: inline-block;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 115%;
+    margin-bottom: 7px;
+    margin: 0 8px 7px 8px;
+}
+h2{
+    color: aliceblue;
+}
+h4{
+    color: aliceblue;
+}
+h5{
+    color: aliceblue;
+    font-style: italic;
+}
+p{
+    color: aliceblue;
+    max-width: 700px;
+    margin: 0 auto 15px;
+    text-align: justify;
+}
+.botao:hover {
+  background-color: rgb(88, 88, 88);
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+.portifolio{
+    color: rgb(12, 158, 255);
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: rgb(9, 12, 41);
+    font-size: 115%;
+    margin-bottom: 7px;
+    padding: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+form{
+    color: aliceblue;
+    max-width: 400px;       /* largura máxima do formulário */
+  margin: 0 auto;         /* centraliza o form na tela */
+  text-align: left;       /* alinhamento do texto à esquerda */
+  display: flex;
+  flex-direction: column; /* empilha os campos verticalmente */
+  gap: 15px;    
+}
+label form{
+     font-weight: bold;
+  color: aquamarine;
+  margin-bottom: 5px;
+}
+form input,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  background-color: #222;
+  color: #eee;
+  font-size: 1em;
+  box-sizing: border-box; /* para o padding não aumentar a largura */
+}
+form textarea{
+    resize: vertical; /* permite redimensionar verticalmente */
+  min-height: 100px;
+}
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #7FFFD4; /* um aquamarine mais claro */
+}
+@media (max-width: 480px) {
+    .botao {
+        display: inline-block;
+        margin: 10px auto;
+        width: 90%;
+        font-size: 1rem;
+        padding: 12px 0;
+    }
+
+    main {
+        padding: 0 5px;
+    }
+}
